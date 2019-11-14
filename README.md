@@ -9,5 +9,4 @@ Changes made from the original:
 
 *This version of the tool allows users to specify a config file that can be used to initialize properties of simulations at runtime. 
 
-*This version of the tool also changed the previous networking implementation to now use a producer-consumer pattern in the networking implementation.
-
+*This version of the tool also changed the previous networking implementation to now use a producer-consumer pattern.
