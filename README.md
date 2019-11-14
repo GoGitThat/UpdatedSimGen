@@ -1,6 +1,13 @@
-# SimGen Rapid Prototyping Tool
-The SimGen tool allows for creating 3D Unity Simulation Environments through the use of a DSL. TCP sockets are used to interact with the objects in the simulation.
+# Updated version of the SimGen tool
 
-## SimGen Demonstration Video
+Original creator's repo can be found at:
+https://github.com/PasternakMichal/SimGen
 
-[<img src="https://s3.amazonaws.com/simgen/VideoScreenshot.png">](https://youtu.be/4ROt2N6i6KA)
+Please refer to the video in the original creator's repo for usage instructions.
+
+Changes made from the original:
+
+*This version of the tool allows users to specify a config file that can be used to initialize properties of simulations at runtime. 
+
+*This version of the tool also changed the previous networking implementation to now use a producer-consumer pattern in the networking implementation.
+
